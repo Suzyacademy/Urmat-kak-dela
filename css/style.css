@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(255, 0, 249);
+    background: linear-gradient(90deg, rgba(255, 0, 249, 1) 0%, rgba(2, 0, 36, 1) 100%);
+    height: 180px;
+}
+
+.first_nav ol {
+    display: inline-flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.first_nav ol li {
+    margin: 0 20px;
+}
+
+.first_nav ol li a {
+    color: ivory;
+    text-decoration: none;
+}
+
+.first_nav ol li .back_link {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.second_nav .inline {
+    display: inline-flex;
+    width: 100%;
+
+}
+
+.inline ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.inline ul li {
+    margin: 0 20px;
+}
+
+.inline ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.inline ul li a i {
+    font-size: 35px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.inline ul li span {
+    font-size: 40px;
+}
+
+.inp_icons {
+    width: 100%;
+    position: relative;
+}
+
+.icons {
+    position: absolute;
+    bottom: 40px;
+    left: 77%;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.icons i {
+    margin: 0 5px;
+}
+
+input {
+    width: 90%;
+    padding: 10px 0;
+    border-radius: 30px;
+    border: 0px;
+    height: 9vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-left: 10px;
+    color: whitesmoke;
+    margin: 10px 0;
+}
+
+.inline ol {
+    display: flex;
+    list-style: none;
+}
+
+.inline ol li {
+    margin: 0 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.inline ol li a {
+    color: white;
+    text-decoration: none;
+}
+
+.friday {
+    display: flex;
+    flex-wrap: wrap;
+    background: url("/friday.jpg") center/cover;
+    height: 350px;
+    padding-top: 50px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.text p {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.pictures {
+    display: inline-flex;
+    margin-left: 20px;
+    flex-wrap: wrap;
+   
+   
+}
+.pic1{
+    margin: 0 20px;
+}
+.pic2{
+    margin: 0 20px;
+}
+
+.pic3{
+    margin: 0 20px;
+}
+
+.pic4{
+    margin: 0 20px;
+}
+
+.pic5{
+    margin: 0 20px;
+}
+
+.pic6{
+    margin: 0 20px;
+}
+.pic1 p{
+    font-size: 22px;
+    font-weight: bold;
+}
+.pic2 p{
+    font-size: 22px;
+    font-weight: bold;
+}
+.pic3 p{
+    font-size: 22px;
+    font-weight: bold;
+}
+.pic4 p{
+    font-size: 22px;
+    font-weight: bold;
+}
+.pic5 p{
+    font-size: 22px;
+    font-weight: bold;
+}
+.pic6 p{
+    font-size: 22px;
+    font-weight: bold;
+}
+.calvin{
+    display: inline-flex;
+    
+}
+.calvin .pic1{
+    width: 550px;
+    margin: 0 20px;
+   
+}
+.calvin .pic2{
+    width: 550px;
+    margin: 0 20px;
+}
+
